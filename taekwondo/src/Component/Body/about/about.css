@@ -1,0 +1,130 @@
+
+.header{
+    font-size: 3.8rem;
+}
+
+.des{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: -3rem;
+}
+.line{
+    padding: 1px 6px;
+    margin: 1px 17px;
+    background-color: rgb(233, 108, 108);
+}
+
+
+.allcard{
+    display: flex;
+
+}
+
+.txts{
+    color: rgb(255, 255, 255);
+    margin: 0rem 1rem;
+    font-size: 12px;
+}
+
+
+
+
+  /* Basic card container style */
+  .card {
+    margin: 3rem 2rem;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(30, 30, 30, 0.1);
+    border-radius: 8px;
+}
+
+/* Image style */
+.card img {
+
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.Cardimg{
+    max-width: 100%;
+    height: auto;
+}
+/* Text overlay style (initially hidden) */
+.card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(190, 84, 89, 0.6);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Hover effect - Show the overlay and scale the image */
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+
+.service{
+    margin: 0rem 3rem;
+    /* margin-bottom: 3rem; */
+}
+.sertxt{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #4c4949;
+   
+
+}
+
+@media screen and (max-width: 720px) {
+
+.header{
+    font-size: 3rem;
+}
+.des{
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: -2.5rem;
+}
+
+    .allcard{
+        display:contents;
+    
+    }
+    .txts{
+        color: rgb(255, 255, 255);
+        margin: 0rem 1rem;
+        font-size: 10px;
+    }
+    .service{
+        margin: 0rem 1rem;
+        /* margin-bottom: 3rem; */
+    }
+    .sertxt{
+        font-size: 15px;
+        font-weight: 300;
+        color: #4c4949;
+       
+    
+    }
+    
+    
+    
+}

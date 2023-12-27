@@ -1,0 +1,48 @@
+.footer{
+    width: 100%;
+    height: 12rem;
+    background-image: url('./imgs/foot.jpg');
+}
+.footimg{
+    visibility:inherit;
+    margin-top: .6rem;
+    width: 3rem;
+    height: 3rem;
+}
+.ftxt{
+    margin-top: -.1rem;
+    font-size: 17px;
+    color: white;
+}
+.allfot{
+    /* margin: -19px; */
+}
+.foot{
+    font-size: 12px;
+    color: white;
+    font-weight: 300;
+}
+.bolded{
+  font-weight: 500;
+}
+.myin{
+    margin: -1.6rem 1rem;
+}
+@media screen and (max-width: 720px) {
+    .allfot{
+        margin: -19px;
+    }
+
+    .foot{
+        font-size: 10px;
+        color: white;
+        font-weight: 300;
+    }
+
+    .myin{
+        margin:0rem 2rem;
+    
+        
+    }
+    
+}

@@ -1,0 +1,52 @@
+.choosepln{
+    margin-top: -1.3rem;
+    background: url('./img//kowndo.jpg');
+    max-width: 100%;
+    height: 850px;
+
+}
+.plnbtns{
+    padding: 8px 13px;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    font-size: 20px;
+}
+.box{
+    display: grid;
+    justify-content: center;
+    padding: 100px 10px;
+}
+
+.popup{
+    display: contents;
+    color: white;
+  
+}
+.mbtn{
+    font-weight: 600;
+    margin: 6px  auto;
+    padding: 8px 20px;
+    background-color: rgba(239, 113, 91,.2);
+    color: white;
+    border-radius: 1rem;
+
+}
+.cost{
+    padding: 8px 17px;
+    font-weight: 700;
+    background-color: rgba(164, 83, 56,.3);
+}
+
+@media screen and (max-width:720px) {
+
+
+    .choosepln{
+        background: url('./img/newgirl.jpg');
+      
+    
+
+       
+    
+    }
+    
+}

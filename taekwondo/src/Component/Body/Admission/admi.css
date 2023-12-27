@@ -1,0 +1,106 @@
+.admisstion {
+
+  margin: 7rem 2rem;
+}
+
+.Adhead {
+  font-size: 3rem;
+  font-weight: 700;
+  ;
+}
+
+.adtxt {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  color: rgb(48, 47, 47);
+}
+
+.lines {
+  padding: 1px 0px;
+  margin: 10px auto;
+  background-color: rgb(233, 108, 108);
+
+
+
+}
+
+
+
+
+
+/* Basic card container style */
+.Adcard {
+  background: url('./img/kondoimg.jpg');
+  max-width: 100%;
+  height: auto;
+ 
+  margin: 3rem 0rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(30, 30, 30, 0.1);
+  border-radius: 8px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* Image style */
+.Adcard img {
+
+  object-fit: cover;
+  transition: transform 0.9s;
+}
+
+.newgirlimg {
+   max-width: 100%;
+   height: 650px
+
+}
+
+/* Text overlay style (initially hidden) */
+.Adcard .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(190, 84, 89, 0.6);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Hover effect - Show the overlay and scale the image */
+.Adcard:hover img {
+  transform: scale(1.1);
+}
+
+.Adcard:hover .overlay {
+  opacity: 1;
+}
+
+.cost {
+  margin: 10px auto;
+}
+
+.plnbtn {
+  color: white;
+  text-decoration: none;
+  padding: 3px 7px;
+  background-color: rgba(172, 10, 10, 0.3);
+
+}
+
+@media screen and (max-width: 880px) {
+  
+
+
+
+}

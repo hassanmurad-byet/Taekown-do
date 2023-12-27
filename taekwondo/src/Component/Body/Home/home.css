@@ -1,0 +1,42 @@
+.home{
+   
+    margin-bottom: 7rem;
+    color: white;
+
+}
+.hom{
+   
+
+}
+.pics{
+   
+    max-width: 100%;
+    height: auto;
+    
+}
+.txt{
+    margin: 3rem 0rem;
+    font-size: 2rem;
+    color: rgb(96, 96, 96);
+    font-style: italic;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 720px) {
+
+    .home{
+    margin-top: .8rem;
+    margin-bottom: 7rem;
+    color: white;
+
+}
+.txt{
+    margin: 3rem 0rem;
+    font-size: 1.3rem;
+    color: rgb(96, 96, 96);
+    font-style: italic;
+    font-weight: 300;
+}
+    
+}
+

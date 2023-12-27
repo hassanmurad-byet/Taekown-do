@@ -1,0 +1,99 @@
+.containers{
+    margin: 2rem 1rem;
+}
+
+.cls{
+
+}
+
+.selectLogs{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 69px;
+    width: 460px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* box-shadow: 2px black; */
+    /* border: 1px solid black; */ 
+
+  
+}
+
+/* .logsimg{
+   width: 10px;
+   height: 20px;
+} */
+
+.selectimg{
+    width: 20px;
+    height: 17px;
+
+}
+
+
+.inputs{
+    margin-top: 49px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+
+
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 380px;
+    height: 45px;
+    background-color: white;
+    border-radius: 6px;
+}
+.loginimg{
+    margin:  0px 20px;
+}
+.inputs input{
+    height: 40px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(195, 196, 197);
+    font-size: 18px;
+}
+.forgot-password{
+    color: rgb(189, 187, 187);
+    margin-top: 24px;
+    font-size: 19px;
+ /* padding-left: 62px; */
+
+}
+.forgot-password span{
+    color: rgb(235, 97, 97);
+    cursor:pointer ;
+}
+.sumit-container{
+    display: flex;
+    gap: 60px;
+    margin: 45px auto;
+}
+.clssubmit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    color: white;
+    background:rgb(235, 97, 97);
+    border-radius: 50px;
+    font-weight: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.clssubmit{
+
+}
