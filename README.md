@@ -12,4 +12,5 @@
 <img width="402" alt="d012" src="https://github.com/hassanmurad-byet/Taekown-do/assets/83183587/d9eda382-3622-47e7-8d29-8165ff9ea409">
 <img width="1440" alt="d014" src="https://github.com/hassanmurad-byet/Taekown-do/assets/83183587/bffbe685-4e95-4474-b101-b287c5ebfc7a">
 
-Drive Video: https://drive.google.com/file/d/1IXdj-HHb9Oq6z197ZzhDYlyrY3cKS69g/view?usp=drive_link
+
+see Video: https://www.linkedin.com/posts/hassan-murad-3bbaa8121_reactjs-activity-7145768149789868033-LyyX?utm_source=share&utm_medium=member_desktop
